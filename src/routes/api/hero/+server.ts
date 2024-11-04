@@ -6,6 +6,10 @@ export const GET: RequestHandler = async () => {
 
     const content = fs.readFileSync("./static/Hero_data.json", "utf-8")
 
-    return json(JSON.parse(content))
+    const data = json(JSON.parse(content))
+
+    console.log(data)
+
+    return data
 
 };
