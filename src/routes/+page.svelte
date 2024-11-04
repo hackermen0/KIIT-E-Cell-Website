@@ -81,7 +81,7 @@
             <div class="z-10 text-2xl w-3/4 h-full bg-none flex flex-col drop-shadow-2xl justify-center">
                 <div class="w-full flex flex-col h-4/5">
                     <div class="my-auto dark:text-white text-black">
-                        <p class="text-[2.5rem] md:text-[5rem]">{data.header}</p>
+                        <p class="text-[2.5rem] md:text-[5rem] leading-10">{data.header}</p>
                         <p class="text-[1rem] md:text-[1.5rem] mt-6 md:mt-14 font-light whitespace-pre-wrap">{data.subtext}</p>
                         <a href="/">
                             <button class="btn border-none btn-primary w-1/2 mt-10 md:mt-14 bg-white text-black hover:bg-slate-400 dark:bg-slate-800 dark:hover:bg-slate-500 dark:text-white hover:text-white">{data.cta_button_text}</button>
